@@ -114,3 +114,24 @@ h2{
 .barrato{
     text-decoration: line-through;
 }
+/* footer */
+
+footer{
+    background-color: black;
+    margin-bottom: 3px solid white;
+    padding: 20px 0px;
+}
+.container-footer{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.container-footer h3, h4{
+    color: white;
+}
+
+.social span{
+    padding: 5px 5px;
+}
