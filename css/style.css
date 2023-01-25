@@ -37,3 +37,80 @@ header{
     width: 135px;
     height: auto;
 }
+
+/* main */
+
+.container-main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.container-img{
+    width: calc(90% /3 );
+    position: relative;
+    margin-bottom: 40px;
+    
+}
+
+.img img{
+    width: 100%;
+    display: block;
+}
+
+
+.img .sconto{
+    position: absolute;
+    left: 0px;
+    top: 70%;
+}
+.img .heart{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    background-color: white;
+    padding: 10px 10px;
+}
+
+.sconto2{
+    background-color: red;
+    padding: 5px 10px;
+    color: white;
+}
+.sostenibilità{
+    background-color: green;
+    padding: 5px 10px;
+    color: white;
+}
+
+.img{
+    position: relative;
+}
+
+.img2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+}
+
+.img2:hover{
+    opacity: 1;
+}
+
+.heart span:hover{
+    color: red;
+}
+h2{
+    font-size: 18px;
+}
+
+.red{
+    color: red;
+}
+.barrato{
+    text-decoration: line-through;
+}
