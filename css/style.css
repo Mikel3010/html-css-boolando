@@ -1,5 +1,39 @@
+/* reset */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* header */
+
+header{
+    background-color: #ff6900;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    background-color: #ff6900;
+    padding: 20px 0px;
+}
+.container-header .logo img{
+    width: 135px;
+    height: auto;
 }
